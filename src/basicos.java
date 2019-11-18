@@ -2,7 +2,13 @@
 public class basicos {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		boolean logic=true;
+		if(logic=true) {
+			System.out.println("Verdadero");
+		}
+		else {
+			System.out.println("false");
+		}
 
 	}
 
