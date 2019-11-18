@@ -1,25 +1,32 @@
 
 public class basicos {
 
-	
-
-	/**
-     * Método para mostrar ejemplos de tipos numericos.
-     */
+ 
     public static void cadenas() {
     	 String cadena;
          cadena="HolaMundo";
+         System.out.println(cadena);
+     }
+	public static void logicos() {
+		boolean logic=true;
+		if(logic=true) {
+			System.out.println("Verdadero");
+		}
+		else {
+			System.out.println("false");
+		}
 
+	}
 
 
            //Mostrar en pantalla el contendido de las variables de tipos básicos.
            
            
-           System.out.println(cadena);
+          
 	  /**
      * Método para mostrar ejemplos de tipos numericos.
      */
-    }
+    
     public static void numericos() {
 
         //Estos son los tipos básicos
@@ -41,10 +48,7 @@ public class basicos {
         System.out.println(doble);
     }
 
-
-     
-        
-    
+  
 public static void main(String[] args) {
 	// TODO Auto-generated method stub
 	 numericos();  // Llamada al método
